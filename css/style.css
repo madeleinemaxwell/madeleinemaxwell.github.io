@@ -1,0 +1,68 @@
+/* color in css: rgb=red/green/blue values, much more accurate */
+
+body {
+	background-color: white;
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	font-family: Helvetica, Arial, sans-serif;
+	color: white;
+}
+
+.main {
+	max-width: 600px;
+	background-color: rgba(245,122,122,0.8);
+	margin: 0 auto;
+	padding: 40px;
+}
+
+h1 {
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: 5px solid white;
+	margin-bottom: 20px;
+	font-family: 'Pacifico', cursive;
+	font-size: 50px;
+}
+
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 5px;
+	cursor: pointer;
+}
+
+h3 {
+	letter-spacing: 2px;
+	margin-top: 0;
+	cursor: pointer;
+}
+
+.face {
+	display: block;
+	/* image allowed to have margins */
+	margin: 0 auto;
+	/* 1 value, all 4 sides, 2 values, top/bottom both sides, 3 values, top, sides, bottom, 4 values, top --> clockwise: no margin on top and bottom, auto on sides, puts it in centre */
+	border: 10px solid white;
+	border-radius: 50%;
+}
+
+p,
+ul,
+ol {
+	line-height: 1.5;
+	list-style: none;
+	padding-left: 0;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:focus,
+a:hover {
+	text-decoration: underline;
+	color: #D6D6D6;
+}
